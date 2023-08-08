@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 24px;
+}
+
+body{
+    height:100vh;
+    background-color: cornflowerblue;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.container{
+    width:1000px;
+    background-color: beige;
+    padding: 150px 100px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.cf{
+    width:50%;
+    letter-spacing: 1px;
+    
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0px 10px;
+
+}
+
+.Temperature-icon{
+    font-size: 50px;
+    color:black
+}
+h1{
+    color: black;
+    letter-spacing: 1.4px;
+    text-align: left;
+}
+.icon{
+    flex:1;
+    height:60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #4d594d;
+    color:#d2d2d2;
+    border-radius: 0 8px 8px 0;
+}
+
+.button{
+    margin-top: 30px;
+    text-align: center;
+}
+ .button button{
+    border: none;
+    padding :10px 30px;
+    font-size: 20px;
+    cursor:pointer;
+    transition: 0.3s;
+    font-weight: 600px;
+    border-radius: 3px;
+
+} 
+.button button:hover{
+    background: black;
+    color:beige;
+}
